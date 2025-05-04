@@ -13,13 +13,15 @@
     },
     "awslabs.cost-analysis-mcp-server": {
       "command": "uvx",
-      "args": ["awslabs.cost-analysis-mcp-server@latest"],
+      "args": [
+        "awslabs.cost-analysis-mcp-server@latest"
+      ],
       "env": {
         "FASTMCP_LOG_LEVEL": "ERROR",
         "AWS_PROFILE": "your-aws-profile"
       },
-      "disabled": false,
-      "autoApprove": []
+      "autoApprove": [],
+      "disabled": false
     }
   }
 }
