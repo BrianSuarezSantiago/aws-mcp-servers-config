@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "aws-docs": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "--interactive",
+        "--env",
+        "FASTMCP_LOG_LEVEL=ERROR",
+        "awslabs/aws-documentation-mcp-server"
+      ]
+    }
+  }
+}
