@@ -41,6 +41,11 @@ Usando `uv`
 
 `/tools trust <tools>` para usar las tools sin tener que pedir las confirmacion constantemente
 
-## Prompts Examples
+## Ejemplos de prompts
 
 look up documentation on S3 bucket naming rule. cite your sources --> recommend content for page https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html
+
+
+
+You can use /compact to replace the conversation         │
+│      history with its summary to free up the context space 
