@@ -72,3 +72,6 @@ lookup the docks, and tell me how to connect my on-premises servers manage them 
 
 You can use /compact to replace the conversation         │
 │      history with its summary to free up the context space 
+
+ /usage shows you a visual breakdown of your current       │
+│                      context window usage   
