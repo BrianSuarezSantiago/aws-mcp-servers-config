@@ -19,6 +19,8 @@ No he conseguido que funcione con Docker
 
 Usando `uv`
 
+AWS Documentation MCP Server
+
 ```{json}
 {
   "mcpServers": {
@@ -35,9 +37,30 @@ Usando `uv`
 }
 ```
 
+AWS Cost Analysis Server
+
+AWS_PROFILE: <your-aws-profile>
+
+```{json}
+{
+  "mcpServers": {
+    "aws-cost-analysis": {
+      "command": "uvx",
+      "args": ["awslabs.cost-analysis-mcp-server@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR",
+        "AWS_PROFILE": default"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
+```
+
 ## Comandos Amazon Q Developer CLI
 
-`/tools` para ver las tools configurados
+`/tools` para ver las herramientas configuradas y disponibles
 
 `/tools trust <tools>` para usar las tools sin tener que pedir las confirmacion constantemente
 
@@ -45,7 +68,7 @@ Usando `uv`
 
 look up documentation on S3 bucket naming rule. cite your sources --> recommend content for page https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html
 
-
+lookup the docks, and tell me how to connect my on-premises servers manage them as a hybrid node
 
 You can use /compact to replace the conversation         │
 │      history with its summary to free up the context space 
