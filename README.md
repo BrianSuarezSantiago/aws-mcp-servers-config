@@ -4,6 +4,9 @@
 2. Configurar Amazon Q Developer CLI
 3. Instalar uv desde Astral: https://docs.astral.sh/uv/getting-started/installation/
 4. Instalar una version de Python 3.10 o superior: `uv python install 3.10` (o una versión más reciente)
+
+No he conseguido que funcione con Docker
+
 5. Crear un archivo `mcp.json`
      Global Configuration: `~/.aws/amazonq/mcp.json` - Aplica a todos los workspaces
 
@@ -12,9 +15,9 @@
      MCP Configuration: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-mcp-configuration.html
 
      AWS MCP Servers: https://awslabs.github.io/mcp/ | https://github.com/awslabs/mcp
-6. Incluir la configuración del servidor
+7. Incluir la configuración del servidor
 
-Usando 
+Usando `uv`
 
 ```{json}
 {
